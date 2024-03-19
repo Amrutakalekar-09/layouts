@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    section{
+      width: 80%;
+      height: 80vh;
+      margin: auto;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding: 100px;
+      box-sizing: border-box;
+      background-image: linear-gradient(45deg,#8A2387,#E94057,#F27121),url(mouse-removebg-preview.png);
+      background-blend-mode: screen;
+      background-repeat: no-repeat;
+    }
+    .menu {
+      margin: -470px 0px 0px 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    .menu ul {
+      margin-left: 200px;
+      list-style: none;
+      display: flex;
+    }
+
+    .menu ul li {
+      margin-right: 20px;
+    }
+
+    .menu a {
+      font-size: 22px;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .menu a:hover {
+      background-color:darkgreen;
+    }
+    section .content{
+      margin: 80px 0px 0px -550px;
+    }
+    section .content h2{
+      font-size: 3em;
+      color: #fff;
+    }
+    section .content p{
+      text-align: justify;
+      padding: 10px;
+      font-size: 1.3em;
+      color: #fff;
+    }
+    section img{
+      height: 500px;
+      max-width: 350px;
+      position: relative;
+      z-index: 1;
+    }
+    .wave{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    .custom-shape-divider-bottom-1703508600 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1703508600 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1703508600 .shape-fill {
+    fill: #FFFFFF;
+}
+  </style>
+  <body>
+    <section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">ContactUs</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2>Website Name</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+          soluta alias error ea perspiciatis adipisci recusandae eveniet
+          suscipit, impedit officia aut quae? Dolorem sint unde sed nemo. Amet,
+          est eligendi?
+        </p>
+      </div>
+      <img src="mouse-removebg-preview.png" alt="" />
+      <div class="custom-shape-divider-bottom-1703508600">
+        <svg class="wave" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    </section>
+  </body>
+</html>
